@@ -4,10 +4,10 @@ import requests
 import time
 
 # Discord webhook URL
-WEBHOOK_URL = "https://discord.com/api/webhooks/1233235678716756068/bY25Cmvw3v6WnKPG9jB0sdUtNrFNz3WOC-zMfPTyznOqj6l6z0m3PmmmbiWhhnDPAIBG"
+WEBHOOK_URL = ""   #webhook
 
 # Directory to monitor
-MONITORED_DIR = "/root/backup"
+MONITORED_DIR = "/root/backup"   #put ur location 2 watch
 
 def get_files_in_directory(directory):
     files = []
